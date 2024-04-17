@@ -11,7 +11,7 @@ public class Hello extends javax.servlet.http.HttpServlet {
         response.setHeader("Access-Control-Allow-Origin", "*");
 
         // Allow specific HTTP methods
-        response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, PATCH, DELETE");
+        response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
 
         // Allow specific headers
         response.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
